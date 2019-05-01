@@ -1,0 +1,40 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+# disable taxonomies default pages
+#disableKinds = ["taxonomy", "taxonomyTerm", "categories"]
+googleAnalytics = ""
+
+# include to use theme
+#theme = "example-theme"
+enableRobotsTXT = true
+
+# used for code blocks
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+canonifyURLS = true
+paginate = 12
+
+[taxonomies]
+  category = "categories"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  themeColor = "#12B3A8"
+  favicon = "/favicon.png"
+  image = "smartphone.svg"
+  keywords = "web development articles, javascript articles for beginners"
+  description = "This is a Hugo boilerplate"
+  email = "hello@example.com"
+  mobile = "1800-4563-1893"
+  address = "New York City"
+  facebook = "facebook.com/hugo-boilerplate-example"
+  twitter = "twitter.com/hugo-boilerplate-example"
+  instagram = "instagram.com/hugo-boilerplate-example"
+  github = "github.com"

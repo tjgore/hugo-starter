@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{- partial "meta-data" . -}}
+
+  <!-- Page Meta Data -->
+  {{- block "page-meta-data" . }}{{- end }}
+
+  <!-- Styles and Fonts -->
+  {{- partial "head-includes" . -}}
+</head>
+<body>
+  <!-- Main Navigation -->
+  {{- partial "nav" . -}}
+
+  <!-- Main Content -->
+  {{- block "main" . }}{{- end }}
+
+  <!-- Main Footer -->
+  {{- partial "footer" . -}}
+
+  <!-- Main Javascript -->
+</body>
+</html>
