@@ -1,0 +1,33 @@
+{
+  "name": "hugo-starter",
+  "version": "1.0.0",
+  "description": "A boilerplate for Hugo static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjgore/hugo-starter.git"
+  },
+  "keywords": [
+    "hugo",
+    "boilerplate"
+  ],
+  "author": "TJ Gore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjgore/hugo-starter/issues"
+  },
+  "homepage": "https://github.com/tjgore/hugo-starter#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
