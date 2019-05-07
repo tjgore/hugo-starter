@@ -1,0 +1,149 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "static/image/uploads"
+public_folder: "/image/uploads"
+
+collections:
+# Example
+# For folder collections 
+# Vendors
+  - name: "vendors" # Used in routes, e.g., /admin/collections/blog
+    label: "Vendors" # Used in the UI
+    folder: "content/vendors" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Main Image", name: "mainImage", widget: "image"}
+      - {label: "Background Image", name: "bgImage", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Categories
+        name: categories
+        widget: list
+        allow_add: true
+      - {label: "Contact Person", name: "contactPerson", widget: "string"}
+      - {label: "Mobile", name: "mobile", widget: "string"}
+      - {label: "Phone", name: "phone", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Address", name: "address", widget: "string"}
+      - {label: "Website", name: "website", widget: "string"}
+      - label: "Social Media"
+        name: social
+        widget: list
+        allow_add: true
+        fields:
+          - {label: Platform, name: platform, widget: string}
+          - {label: URL, name: url, widget: string}
+      - {label: "Show More Vendors", name: showMore, widget: "boolean" }
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD" }
+      - {label: "Draft", name: "draft", widget: boolean, default: false}
+
+
+# For file collections
+  - label: "Content"
+    name: "content"
+    files:
+# homepage.json
+      - label: "Home Page"
+        name: "homepage"
+        file: "/data/homepage.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string, required: false}
+              - label: Image 
+                name: image 
+                widget: image
+                required: false
+              - {label: Body, name: body, widget: markdown, required: false}
+          - label: Components
+            name: components
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Active, name: active, widget: boolean}
+          - label: "Footer Info"
+            name: "footerInfo"
+            widget: "object"
+            fields:
+              - {label: Body, name: body, widget: string}
+              - {label: Button, name: button, widget: string}
+              - {label: URL, name: link, widget: string}
+# categories.json
+      - label: "Categories"
+        name: "categories"
+        file: "/data/categories.json"
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Image, name: image, widget: image}
+# settings
+      - label: Settings
+        name: settings
+        file: /data/settings.json
+        fields:
+          - label: "General"
+            name: "general"
+            widget: "object"
+            fields:
+              - {label: Company Name, name: companyName, widget: string}
+              - {label: Theme color, name: themeColor, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Keywords, name: keywords, widget: string}
+              - {label: Description, name: description, widget: string}
+              - {label: Logo, name: logo, widget: string}
+              - {label: White Logo, name: whiteLogo, widget: string}
+              - {label: Favicon, name: favicon, widget: string}
+              - {label: Website Main Image, name: image, widget: image}
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: Email, name: email, widget: string}
+              - {label: Mobile, name: mobile, widget: string}
+              - {label: Phone, name: phone, widget: string}
+              - label: Social Media
+                name: socialMedia
+                widget: list
+                allow_add: true
+                fields:
+                  - {label: Platform, name: platform, widget: string}
+                  - {label: Icon, name: icon, widget: string, required: false}
+                  - {label: URL, name: url, widget: string}
+              - {label: Address, name: address, widget: string}
+              - {label: City, name: city, widget: string}
+              - {label: State, name: state, widget: string}
+              - {label: Zip, name: zip, widget: string}
+              - {label: Country, name: country, widget: string}
+# menu
+      - label: Menu
+        name: menu
+        file: /data/menu.json
+        fields:
+          - label: Main Menu
+            name: menu
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: link, widget: string}
+              - {label: Type, name: type, widget: select, options: ["link", "button"], default: ["link"]}
+          - label: Footer Menu
+            name: footer-menu
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: link, widget: string}
+              - {label: Type, name: type, widget: select, options: ["link", "button"], default: ["link"]}

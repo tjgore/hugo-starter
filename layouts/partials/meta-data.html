@@ -2,7 +2,21 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta content="en_US" property="og:locale">
-<meta name="theme-color" content="{{ .Site.Params.themeColor }}">
+<meta name="theme-color" content="{{ .Site.Data.settings.general.themeColor }}">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
-<meta content="{{ .Site.Params.email }}" property="og:email">
+<meta content="{{ .Site.Data.settings.contact.email }}" property="og:email">
 <meta content="website" property="og:type">
+<!-- Per Page Meta Data -->
+<meta name="description" content="{{ if .Description }} {{- .Description -}} {{ else }} {{- .Site.Data.settings.general.description -}} {{ end }}"/>
+<meta name="keywords" content='{{ if .Keywords }} {{- delimit .Keywords ", " -}} {{ else }} {{- .Site.Data.settings.general.keywords -}} {{ end }}'/>
+<meta content="{{ .Site.Data.settings.general.title }}" property="og:site_name">
+<meta content="{{ if .Title }} {{- .Title }} | {{ .Site.Data.settings.general.title -}} {{ else }} {{- .Site.Data.settings.general.title -}} {{ end }}" property="og:title">
+<meta content="{{ .Site.BaseURL }}{{ if .Site.Data.settings.general.image }}{{ .Site.Data.settings.general.image }} {{ else }}image/default.jpg {{ end }}" property="og:image">
+<meta content="{{ if .Description }} {{- .Description -}} {{ else }} {{- .Site.Data.settings.general.description -}} {{ end }}" name="og:description">
+<meta content="{{ .Permalink }}" property="og:url">
+<link rel="shortcut icon" type="image/png" href="{{ .Site.Data.settings.general.favicon }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ if .Title }} {{- .Title }} | {{ .Site.Data.settings.general.title -}} {{ else }} {{- .Site.Data.settings.general.title -}} {{ end }}</title>
+
+ <!-- Netlify cms Identity widget -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

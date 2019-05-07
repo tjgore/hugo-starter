@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "event planner",
+      "image": "/img/categories/bunch.jpg"
+    },
+    {
+      "name": "make up artist",
+      "image": "/img/categories/hold-hands.jpg"
+    },
+    {
+      "name": "designers",
+      "image": "/img/categories/roses.jpg"
+    },
+    {
+      "name": "photographer",
+      "image": "/img/categories/bunch.jpg"
+    },
+    {
+      "name": "florist",
+      "image": "/img/categories/flower.jpg"
+    },
+    {
+      "name": "website",
+      "image": "/img/categories/hold-hands.jpg"
+    }
+  ]
+}

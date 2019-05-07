@@ -14,9 +14,33 @@ Build project
 
 `hugo`
 
-To be continued.....
-- Add bootstrap
-- Add jquery
+Create an account on netlify
+
+Test netlify cms 
+
+`localhost:1313/admin`
+
+#### Install netlify cli
+
+```bash
+sudo npm install netlify-cli -g
+netlify login
+netlify link
+```
+
+###### Manually deploy built site to netlify
+
+```bash
+hugo 
+cd public
+netlify deploy
+```
+
+#### To be continued.....
+
 - Add basic design
-- Basic sass compiling
 - output clean html
+
+#### Note:
+
+Categories should be more flexible as a content type rather than data

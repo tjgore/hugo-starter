@@ -1,0 +1,35 @@
+{
+  "general": {
+    "companyName": "Hugo Up",
+    "themeColor": "#EA84EE",
+    "title": "Hugo Up",
+    "keywords": "hugo, boilerplate, quick starter",
+    "description": "Vestibulum ante elit, convallis quis nibh in vulputate rhoncus massa. In hac habitasse platea dictumst, In hac habitasse platea dictumst simple dummy content here.",
+    "logo": "/image/hugoup.svg",
+    "whiteLogo": "",
+    "favicon": "/favicon.ico",
+    "image": "image/default-hero.jpg"
+  },
+  "contact": {
+    "email": "hello@hugoup.com",
+    "mobile": "1800-4563-1893",
+    "phone": "873-2840-1236",
+    "socialMedia": [
+      {
+        "platform": "facebook",
+        "icon": "facebook",
+        "url": "https://facebook.com"
+      },
+      {
+        "platform": "twitter",
+        "icon": "twitter",
+        "url": "https://twitter.com"
+      }
+    ],
+    "address": "156 Alien Ave",
+    "city": "Greenbelt",
+    "state": "MD",
+    "zip": "67JHEWD9",
+    "country": "USA"
+  }
+}

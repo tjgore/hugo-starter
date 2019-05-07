@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "name": "Home", 
+      "type": "link",
+      "link": "/"
+    },
+    {
+      "name": "Vendors", 
+      "type": "link",
+      "link": "/vendors"
+    },
+    {
+      "name": "Categories", 
+      "type": "link",
+      "link": "/categories"
+    },
+    {
+      "name": "Stories", 
+      "type": "link",
+      "link": "/stories"
+    },
+    {
+      "name": "Get Started Now",
+      "type": "button", 
+      "link": "/"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Home", 
+      "type": "link",
+      "link": "/"
+    },
+    {
+      "name": "Vendors", 
+      "type": "link",
+      "link": "/vendors"
+    }
+  ]
+}

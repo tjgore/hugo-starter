@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": "Find Antigua Wedding Vendors",
+    "subTitle": "",
+    "image": "/img/header-wedding.jpg",
+    "body": "Browse the best wedding vendors in your area — from venues and photographers, to wedding planners, caterers, florists and more."
+  },
+  "components": [
+    {
+      "name": "hero",
+      "active": true
+    },
+    {
+      "name": "intro",
+      "active": true
+    }
+  ],
+  "footerInfo": {
+    "body": "Are you vendor ? List your venue and service get more from listing business.",
+    "button": "List Your Business",
+    "link": "/vendors"
+  }
+}

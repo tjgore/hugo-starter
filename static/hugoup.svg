@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="233.34338mm"
+   height="238.125mm"
+   viewBox="0 0 233.34338 238.125"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="hugoup.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="526.67809"
+     inkscape:cy="554.28568"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1389"
+     inkscape:window-height="761"
+     inkscape:window-x="51"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(119.6955,30.327388)">
+    <g
+       id="g836"
+       transform="matrix(1.2650602,0,0,1.2650602,0.80149174,-23.520151)">
+      <ellipse
+         ry="94.116074"
+         rx="92.226196"
+         cy="88.735115"
+         cx="-3.0238097"
+         id="path817"
+         style="opacity:1;fill:#89fc00;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot823"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion825"><rect
+           id="rect827"
+           width="151.42857"
+           height="151.42857"
+           x="-428.57144"
+           y="271.09113" /></flowRegion><flowPara
+         id="flowPara829"></flowPara></flowRoot>    <g
+       id="g988">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.77858353px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.89446455"
+         x="-68.68309"
+         y="150.03389"
+         id="text821"><tspan
+           sodipodi:role="line"
+           id="tspan819"
+           x="-68.68309"
+           y="150.03389"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:171.73718262px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#ffffff;stroke-width:0.89446455">H</tspan></text>
+      <g
+         transform="translate(-0.45357146,-1.5119048)"
+         id="g964">
+        <g
+           style="fill:#ffffff"
+           id="g897"
+           transform="matrix(1.1514829,0,0,1.0639543,-0.15048011,-12.150626)">
+          <rect
+             transform="matrix(0.77120473,-0.6365872,0.71892133,0.69509145,0,0)"
+             y="39.507599"
+             x="-48.482815"
+             height="19.367741"
+             width="53.124645"
+             id="rect838"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <rect
+           transform="matrix(-0.69184579,-0.72204529,0.72678136,-0.68686888,0,0)"
+           y="-1.5752199"
+           x="-93.390076"
+           height="20.555618"
+           width="56.051453"
+           id="rect840"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

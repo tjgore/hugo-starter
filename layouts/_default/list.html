@@ -1,15 +1,3 @@
-{{ define "page-meta-data" }}
-<meta name="description" content="{{ .Description }}"/>
-<meta name="keywords" content='{{ delimit .Keywords ", " }}'/>
-<meta content="{{ .Site.Title }}" property="og:site_name">
-<meta content="{{ .Title }} | {{ .Site.Title }}" property="og:title">
-<meta content="{{ .Site.BaseURL }}{{ if .Params.haveImage }}{{ .Params.mainImage }} {{ else }}image/default.jpg {{ end }}" property="og:image">
-<meta content="{{ .Description }}" name="og:description">
-<meta content="{{ .Permalink }}" property="og:url">
-<link rel="canonical" href="{{ .Permalink }}">
-<title>{{ .Title }} | {{ .Site.Title }}</title>
-{{ end }}
-
 {{ define "main" }}
 <main>
   <h1>List Page Layout</h1>
