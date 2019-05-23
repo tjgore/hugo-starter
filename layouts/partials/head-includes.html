@@ -1,5 +1,15 @@
+{{ "<!-- Favicon -->" | safeHTML }}
+<link rel="shortcut icon" type="image/png" href="{{ .Site.Data.settings.general.favicon }}" />
 
-<link rel="shortcut icon" type="image/png" href="{{ .Site.Params.favicon }}">
-<!-- Stylesheets -->
-<link rel="stylesheet" href="/css/boostrap.css">
-<!-- Icons and Fonts -->
+{{ "<!-- Main Styles -->" | safeHTML }} 
+{{ if .Site.IsServer }}
+  {{ $bootstrapStyle := resources.Get "scss/bootstrap.scss" | toCSS (dict "targetPath" "/css/bootstrap.css" "enableSourceMap" true) }}
+  {{ $style := resources.Get "scss/styles.scss" | resources.ExecuteAsTemplate "style.styles.scss" . | toCSS (dict "targetPath" "/css/styles.css" "enableSourceMap" true) }}
+  <link rel="stylesheet" type="text/css" href="{{ $bootstrapStyle.Permalink }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}"/>
+{{ else }}
+  {{ $bootstrapStyle := resources.Get "scss/bootstrap.scss" | toCSS (dict "targetPath" "/css/bootstrap.css" "enableSourceMap" true) | fingerprint | minify }}
+  {{ $style := resources.Get "scss/styles.scss" | resources.ExecuteAsTemplate "style.styles.scss" . | toCSS (dict "targetPath" "/css/styles.css" "enableSourceMap" true) | minify | fingerprint }}
+  <link rel="stylesheet" type="text/css" href="{{ $bootstrapStyle.Permalink }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}"/>
+{{ end }}

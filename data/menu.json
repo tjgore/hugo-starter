@@ -25,17 +25,5 @@
       "type": "button", 
       "link": "/"
     }
-  ],
-  "footer": [
-    {
-      "name": "Home", 
-      "type": "link",
-      "link": "/"
-    },
-    {
-      "name": "Vendors", 
-      "type": "link",
-      "link": "/vendors"
-    }
   ]
 }

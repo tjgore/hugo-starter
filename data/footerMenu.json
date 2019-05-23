@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "name": "Home", 
+      "type": "link",
+      "link": "/"
+    },
+    {
+      "name": "Speakers", 
+      "type": "link",
+      "link": "#speakers"
+    },
+    {
+      "name": "Venue", 
+      "type": "link",
+      "link": "#venue"
+    },
+    {
+      "name": "Tickets", 
+      "type": "link",
+      "link": "#tickets"
+    },
+    {
+      "name": "Contact", 
+      "type": "link",
+      "link": "#contact"
+    }
+  ]
+}

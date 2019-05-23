@@ -26,8 +26,7 @@
   "devDependencies": {
     "gulp": "^4.0.1",
     "gulp-pretty-html": "^2.0.10",
-    "gulp-remove-empty-lines": "^0.1.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-purgecss": "^1.2.0",
+    "gulp-remove-empty-lines": "^0.1.0"
   }
 }
